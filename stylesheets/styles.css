@@ -54,9 +54,23 @@ a:hover small {
   color:#777;
 }
 
-.wrapper {
+/* .wrapper {
   width:860px;
   margin:0 auto;
+} */
+.wrapper {
+  max-width: 900px;
+  /* Increase from default, adjust as needed */
+  width: 90%;
+  /* Ensures responsiveness */
+  margin: auto;
+  /* Centers content */
+}
+
+ol li br {
+  display: block;
+  /* Ensures line breaks are effective */
+  content: "";
 }
 
 blockquote {
